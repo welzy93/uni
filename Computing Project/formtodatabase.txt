@@ -1,0 +1,39 @@
+<%@ Language="VBScript" %>
+<% Option Explicit %>
+<html>
+<head>
+<title>Form to database</title>
+</head>
+<body>
+<%
+'declare your variables
+Dim name, email, comments
+Dim sConnString, connection, sSQL
+'Receiving values from Form, assign the values entered to variables
+name = Request.Form("name")
+email = Request.Form("email")
+comments =Request.Form("comments")
+
+'declare SQL statement that will query the database
+sSQL = "INSERT into users_tbl (name, email, comments) values ('" & _
+name & "', '" & email & "', '" & comments & "')"
+'define the connection string, specify database
+'driver and the location of database
+sConnString="PROVIDER=Microsoft.Jet.OLEDB.4.0;" & _
+"Data Source=" & Server.MapPath("Users.mdb")
+'create an ADO connection object
+Set connection = Server.CreateObject("ADODB.Connection")
+
+'Open the connection to the database
+connection.Open(sConnString)
+
+'execute the SQL
+connection.execute(sSQL)
+
+response.write "The form information was inserted successfully."
+'Done. Close the connection object
+connection.Close
+Set connection = Nothing
+%>
+</body>
+</html>

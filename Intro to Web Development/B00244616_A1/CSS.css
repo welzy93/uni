@@ -1,0 +1,49 @@
+#header h1 
+       { margin: 0;
+         font-family:"Times New Roman";
+         font-size:30px;
+         text-align:center;
+         color:#000; }
+
+#container
+{
+	margin: 0 auto;
+	width: 1000px;
+	background: #FFF;
+}
+
+
+#navigation
+{
+	float: left;
+	width: 1000px;
+	background: #333;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #383; }
+
+#footer
+
+{

@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+<head>
+<title>The Gaming Centre | Home Page</title>
+<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="head">
+    <h1><a href="#">The Gaming Centre</a></h1>
+    <div id="topnav">
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="Booking.html">Booking</a></li>
+        <li><a href="#">Games</a>
+          <<ul>
+            <li><a href="LaserQuest.html">Laser Quest</a></li>
+            <li><a href="Bowling.Html">Bowling</a></li>
+            <li><a href="CInema.html">Cinema</a></li>
+			<li><a href="F&B.html">Food Court & Bar</a></li>
+			<li><a href="GamesAcrade.html">Games Arcade</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>   
+  </div>
+</div>
+<div class="wrapper col2">
+  <div id="gallery">
+    <ul>
+      <li class="placeholder" style="background-image:url(images/demo/Logo.png);">Image Holder</li>
+      <li><a class="swap" style="background-image:url(images/demo/LaserQuest.jpg);" href="#gallery"><strong>Services</strong><span><img src="images/demo/LaserQuestLarge.jpg" alt="" /></span></a></li>
+      <li><a class="swap" style="background-image:url(images/demo/Bowling.jpg);" href="#gallery"><strong>Products</strong><span><img src="images/demo/BowlingLarge.jpg" alt="" /></span></a></li>
+      <li class="last"><a class="swap" style="background-image:url(images/demo/Arcade.jpg);" href="#gallery"><strong>Company</strong><span><img src="images/demo/ArcadeLarge.jpg" alt="" /></span></a></li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="wrapper col4">
+  <div id="container">
+    <div id="content">
+      <h1>Extra Information</h1>
+	  <br />
+		<h2>Laser Quest</h2>
+		<br />
+			<h3>What is Laser Quest? </h3>
+				<p>Laser Quest is the best known and most exhilarating game of Laser tag. 
+                	No matter what age you are you will love the adrenaline rush of not 
+                    knowing where your opponents are and unleashing a barrage of laser fire in the battle-zone.
+                </p>
+			<br />
+			<h3>Playing the Game</h3>
+				<p>To play the game of Laser quest you enter a surreal world where you
+                compete in teams or free-for-all. Each player is equipped with laser tag
+                equipment and the game is played in a unique labyrinth, with amazing
+                features such as custom scenery, catwalks, lighting effects and tense music
+                <br />
+                Points are Scored when you successfully zap your opponent on one of the
+                sensors located on their gun or pack. Be warned if you get zapped then you
+                will lose points and get knocked out of the the game for a short period of
+                time.
+                <br />
+                Using the Laser Quest Computer you can create limitless game variations such
+                as simple team based games to more complex like base station games.
+				</p>
+            <h3>What's the Score?</h3>
+            	<p>The normal game sessions usually last around 20 minutes and can have up
+                to 20 players in the session. Each session includes all of the equipment and
+                the briefing on how to play.
+                <br />
+                At the end your game scores will be displayed on the monitor and a
+                scorecard will be printed out for you to keep.</p>
+            
+    </div>
+    <br />
+<div class="clear"></div>
+<div class="wrapper col5">
+  <div id="footer">
+    <div id="contactform">
+      <h2>Why Not Contact Us Today !</h2>
+      <form action="MAILTO:welzy93@btinernet.com " method="post" enctype="text/plain">
+        <fieldset>
+          <legend>Contact Form</legend>
+          <label for="fullname">Name:
+            <input id="fullname" name="fullname" type="text" value="" />
+          </label>
+          <label for="emailaddress" class="margin">Email:
+            <input id="emailaddress" name="emailaddress" type="text" value="" />
+          </label>
+          <label for="phone">Telephone:
+            <input id="phone" name="phone" type="text" value="" />
+          </label>
+          <label for="subject" class="margin">Subject:
+            <input id="subject" name="subject" type="text" value="" />
+          </label>
+          <label for="message">Message:<br />
+            <textarea id="message" name="message" cols="40" rows="4"></textarea>
+          </label>
+          <p>
+            <input id="submitform" name="submitform" type="submit" value="Submit" />
+            &nbsp;
+            <input id="resetform" name="resetform" type="reset" value="Reset" />
+          </p>
+        </fieldset>
+      </form>
+    </div>
+    <!-- End Contact Form -->
+    <div id="compdetails">
+      <div id="officialdetails">
+        <h2>Company Information !</h2>
+        <ul>
+          <li>The Gaming Center</li>
+          <li>Registered in Scotland</li>
+          </ul>
+        <h2>Stay in The Know !</h2>
+        <p><a href="#">Get Our E-Newsletter</a> | <a href="#">Grab The RSS Feed</a></p>
+      </div>
+      <div id="contactdetails">
+        <h2>Our Contact Details !</h2>
+        <ul>
+          <li>The Gaming Center</li>
+          <li>Street Name &amp; Number</li>
+          <li>Dumfries</li>
+          <li>Postcode/Zip</li>
+          <li>Tel: xxxxx xxxxxxxxxx</li>
+          <li>Fax: xxxxx xxxxxxxxxx</li>
+          <li>Email: TGC@live.co.uk</li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <!-- End Company Details -->
+    <div id="copyright">
+      <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved </p>
+      <br class="clear" />
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+</div></div></body>
+</html>

@@ -1,0 +1,34 @@
+
+public class StudentApplicationB {
+
+
+		public static void main(String[] args) {
+
+			
+			StudentB s, s1, s2, s3; // declare Student variables
+			s = new StudentB("bob"); 		
+
+			TextIO.putln("s name is " + s.getName());
+		}//main
+}//class
+
+-----------------------------------------------------------------------------------
+
+
+public class StudentB {
+
+		final private String name; // Student’s name (fixed value)
+		public double test1, test2, test3; // Grades on three tests.
+		
+		StudentB(String theName) { // Constructor for Student objects;
+			name = theName; // provides a name for the Student.(which is fixed as final)
+		}
+		
+		public String getName() { // Getter method for reading the value of
+			return name; // the private instance variable, name.
+		}
+		
+		public double getAverage() { // Compute average test grade.
+			return (test1 + test2 + test3) / 3;
+		}
+}

@@ -1,0 +1,26 @@
+C:\Documents and Settings\33333083\My Documents\Visual Studio 2005\Projects\tankwar\tankwar\bin\Debug\tankwar.exe
+C:\Documents and Settings\33333083\My Documents\Visual Studio 2005\Projects\tankwar\tankwar\bin\Debug\tankwar.pdb
+C:\Documents and Settings\33333083\My Documents\Visual Studio 2005\Projects\tankwar\tankwar\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\33333083\My Documents\Visual Studio 2005\Projects\tankwar\tankwar\obj\Debug\tankwar.tankform.resources
+C:\Documents and Settings\33333083\My Documents\Visual Studio 2005\Projects\tankwar\tankwar\obj\Debug\tankwar.Properties.Resources.resources
+C:\Documents and Settings\33333083\My Documents\Visual Studio 2005\Projects\tankwar\tankwar\obj\Debug\tank.csproj.GenerateResource.Cache
+C:\Documents and Settings\33333083\My Documents\Visual Studio 2005\Projects\tankwar\tankwar\obj\Debug\tankwar.exe
+C:\Documents and Settings\33333083\My Documents\Visual Studio 2005\Projects\tankwar\tankwar\obj\Debug\tankwar.pdb
+P:\programmerDEvC#\gameslabs\tankwar\tankwar\obj\Debug\tankwar.exe
+P:\programmerDEvC#\gameslabs\tankwar\tankwar\obj\Debug\tankwar.pdb
+P:\programmerDEvC#\gameslabs\tankwar\tankwar\bin\Debug\tankwar.exe
+P:\programmerDEvC#\gameslabs\tankwar\tankwar\bin\Debug\tankwar.pdb
+P:\programmerDEvC#\gameslabs\tankwar\tankwar\obj\Debug\ResolveAssemblyReference.cache
+P:\programmerDEvC#\gameslabs\tankwar\tankwar\obj\Debug\tankwar.tankform.resources
+P:\programmerDEvC#\gameslabs\tankwar\tankwar\obj\Debug\tankwar.Properties.Resources.resources
+P:\programmerDEvC#\gameslabs\tankwar\tankwar\obj\Debug\tank.csproj.GenerateResource.Cache
+P:\programmerDEvC#\gameslabs\GameCode_week2\tankwar\obj\Debug\tankwar.exe
+P:\programmerDEvC#\gameslabs\GameCode_week2\tankwar\obj\Debug\tankwar.pdb
+P:\programmerDEvC#\gameslabs\GameCode_week2\tankwar\bin\Debug\tankwar.exe
+P:\programmerDEvC#\gameslabs\GameCode_week2\tankwar\bin\Debug\tankwar.pdb
+P:\programmerDEvC#\gameslabs\GameCode_week2\tankwar\obj\Debug\ResolveAssemblyReference.cache
+P:\programmerDEvC#\gameslabs\GameCode_week2\tankwar\obj\Debug\tankwar.tankform.resources
+P:\programmerDEvC#\gameslabs\GameCode_week2\tankwar\obj\Debug\tankwar.Properties.Resources.resources
+P:\programmerDEvC#\gameslabs\GameCode_week2\tankwar\obj\Debug\tank.csproj.GenerateResource.Cache
+H:\programmerDEvC#\gameslabs\GameCode_week2\tankwar\obj\Debug\tankwar.exe
+H:\programmerDEvC#\gameslabs\GameCode_week2\tankwar\obj\Debug\tankwar.pdb

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bank Details</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="CSS.css">
+</head>
+ 
+<body background="bg.jpg">
+
+<header>
+    <font size ="6.5">
+        <h1><b><u><center> Create User </center></u><b></c></h1>
+    </font>
+    </header>
+
+<div id="navigation">
+			<ul>
+				<li><a href="Home Page.html">Home Page</a></li>
+				<li><a href="Login.html">User Login</a></li>
+				<li><a href="Contact.html">Help</a></li>
+			</ul>
+		</div>
+
+ 
+<br>
+<br>
+<br>
+
+
+<p> Fields with an asterisk - (*) beside them are required to be filled in, the other fields are optional. </p>
+
+<br>
+
+
+<table width="450px">
+<tr>
+ <td valign="top">
+
+  <label for="fname">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="fname" id="fname" maxlength="40" size="30" ">
+  </td>
+
+
+<tr>
+ <td valign="top">
+  <label for="sname">Second Name(s) </label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="sname" id="sname" maxlength="45" size="30">
+ </td>
+</tr>
+
+
+<tr>
+ <td valign="top"">
+  <label for="lname">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="lname" id="lname" maxlength="50" size="30">
+ </td>
+</tr>
+
+
+<tr>
+ <td valign="top">
+  <label for="dob">DOB</label>
+ </td>
+ <td valign="top">
+  <input  type="date" name="dob" id="dob">
+ </td>
+
+
+<tr>
+ <td valign="top">
+  <label for="add1">Address Line One *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="add1" id="add1" maxlength="100" size="30">
+ </td>
+
+
+<tr>
+ <td valign="top">
+  <label for="add2">Address Line Two </label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="add2" id="add2" maxlength="100" size="30">
+ </td>
+
+
+<tr>
+ <td valign="top">
+  <label for="pcd">Postcode *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="pcd" id="pcd" maxlength="7" size="30">
+ </td>
+
+
+<tr>
+ <td valign="top">
+  <label for="town"> Town/City</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="town" id="town" maxlength="100" size="30">
+ </td>
+
+
+<tr>
+ <td valign="top">
+  <label for="mail">Email Address *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="mail" id="mail" maxlength="80" size="30">
+ </td>
+</tr>
+
+
+<tr>
+ <td valign="top">
+  <label for="username">Username *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="username" id="username" maxlength="30" size="30">
+ </td>
+</tr>
+
+
+<tr>
+ <td valign="top">
+  <label for="pass1">Password *</label>
+ </td>
+ <td valign="top">
+  <input  type="password" name="pass1" id="pass1" maxlength="25" size="30">
+ </td>
+
+
+<tr>
+ <td valign="top">
+  <label for="pass2">Confirm Password *</label>
+ </td>
+ <td valign="top">
+  <input  type="password" name="pass2" id="pass2" maxlength="25" size="30" onkeyup="checkPass(); return false;">  
+             <span id="confirmMessage" class="confirmMessage"></span>
+ </td>
+
+
+<tr>
+ <td valign="top">
+  <label for="Security_Question"> Security Question</label>
+ </td>
+ <td valign="top">
+<select>
+  <option value="mother">Mother's Maiden Name</option>
+  <option value="city">City Of Birth</option>
+  <option value="pet">Pet's Name</option>
+  <option value="song">Favourite Food</option>
+  <option value="school">Name of First School</option>
+</select>
+ </td>
+
+
+<tr>
+ <td valign="top">
+  <label for="sansw">Security Answer *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="sansw" id="sansw" maxlength="150" size="30">
+ </td>
+
+
+<tr>
+<td align="center">
+<form action='mailto:welzy93@live.co.uk' method="post" enctype="text/plain"> 
+<form name="contactform" method="post" action="'mailto:welzy93@live.co.uk'">
+<input type="submit" value="Submit Values" />
+</form>
+<td align="center">
+<form method="get" action="bankdetails.html">
+    <button type="submit">Continue</button>
+
+</form>
+</td>
+</tr>
+</table>
+
+<script type="text/javascript">
+
+function checkPass()
+{
+  
+var pass1 = document.getElementById('pass1');
+var pass2 = document.getElementById('pass2');
+var message = document.getElementById('confirmMessage');
+var goodColor = "#66cc66";
+var badColor = "#ff6666";
+if(pass1.value == pass2.value){
+   message.style.color = goodColor;
+   message.innerHTML = "Passwords Match!"
+ }else{
+pass2.style.backgroundColor = badColor;
+message.style.color = badColor;
+message.innerHTML = "Passwords Do Not Match!"
+    }
+}  
+</script>
+
+<script type="text/javascript">
+
+function validateFormOnSubmit(theForm) {
+var reason = "";
+
+  username += validateUsername(theForm.username);
+  reason += validatePassword(theForm.pwd);
+  reason += validateEmail(theForm.email);
+  reason += validatePhone(theForm.phone);
+  reason += validateEmpty(theForm.from);
+      
+  if (reason != "") {
+    alert("Some fields need correction:\n" + reason);
+    return false;
+  }
+
+  alert("All fields are filled correctly");
+  return false;
+}
+
+function validateEmpty(fld) {
+    var error = "";
+ 
+    if (fld.value.length == 0) {
+        fld.style.background = 'Yellow'; 
+        error = "The required field has not been filled in.\n"
+    } else {
+        fld.style.background = 'White';
+    }
+    return error;  
+}
+</script>
+
+</body>
+</html>

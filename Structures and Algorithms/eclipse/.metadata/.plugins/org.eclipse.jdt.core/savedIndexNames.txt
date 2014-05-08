@@ -1,0 +1,11 @@
+INDEX VERSION 1.126+C:\Users\Ryan\SkyDrive\Uni\Structures and Algorithms\eclipse\.metadata\.plugins\org.eclipse.jdt.core
+1259207542.index
+2768476762.index
+1281376111.index
+1847878915.index
+4146934969.index
+172194591.index
+1426061061.index
+1020438943.index
+2150237231.index
+1007340512.index

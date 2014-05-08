@@ -1,0 +1,2 @@
+D:\gamesdesign2010 - Copy\gamesdesign2010 - Copy\gameslabs\GameCode_week7\tankwar\obj\Debug\tankwar.exe
+D:\gamesdesign2010 - Copy\gamesdesign2010 - Copy\gameslabs\GameCode_week7\tankwar\obj\Debug\tankwar.pdb

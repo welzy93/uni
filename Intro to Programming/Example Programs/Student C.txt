@@ -1,0 +1,62 @@
+
+public class StudentApplicationC {
+
+
+
+			public static void main(String[] args) {
+
+
+				StudentC s, s1, s2, s3; // declare Student variables
+				s = new StudentC("Rebecca"); 			//uses the constructor to create student with name
+				
+				//TextIO.putln("s name is " + s.name);       //can't access name directly now!!! uses constructor
+				
+				TextIO.putln("enter test 1 result");
+				double result ;
+				result = TextIO.getDouble();
+				s.setTest1(result);
+				TextIO.putln("s.getTest1() is " + s.getTest1());
+			
+			}//main
+	}//class
+
+------------------------------------------------------------------------------------------------------------
+
+
+public class StudentC {
+
+
+			final private String name; // Student’s name.
+			private double test1, test2, test3; // Grades on three tests.
+			
+			StudentC(String theName) { 			// Constructor for Student objects;
+				name = theName; 				// provides a name for the Student.
+			}
+			//*******************************************************************************
+			public String getName() { 		// Getter method for reading the value of
+				return name; 				// the private instance variable, name.
+			}
+			//*******************************************************************************
+			public double getAverage() { // Compute average test grade.
+				return (test1 + test2 + test3) / 3;
+			}
+			//*******************************************************************************
+			
+			
+			public void setTest1(double t1){	//setter method for setting test1
+				 if ((t1<0) || (t1>100)) {
+			           throw new IllegalArgumentException("test 1: 0 - 100");
+			      }
+				 else
+					 test1 = t1;					
+			}//setTest1
+			                                   //*******************
+			public double getTest1(){
+				
+				return test1;
+			}
+
+	} // end of class Student
+
+
+

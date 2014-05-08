@@ -1,0 +1,21 @@
+APPLICANT - name, address, 
+
+COMPANY - name, address
+
+JOB - title, description, startDate, endDate, salary,
+
+POST - title, details, status
+
+OUTCOME - result
+
+
+ATM - receipt, envelope, cash
+
+CUSTOMER - balance
+
+USER - pin
+
+TRANSACTION - date, amount, type
+
+LOG - DATE
+

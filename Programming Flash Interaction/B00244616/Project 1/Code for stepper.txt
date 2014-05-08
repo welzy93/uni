@@ -1,0 +1,5 @@
+myStepper.addEventListener(Event.CHANGE, changeHandler);
+
+function changeHandler(evt:Event):void {
+	outputText.text = String(myStepper.value);
+}

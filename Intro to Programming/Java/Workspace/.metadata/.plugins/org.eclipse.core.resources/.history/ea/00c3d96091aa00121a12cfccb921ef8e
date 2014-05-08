@@ -1,0 +1,54 @@
+
+public class Menu {
+	
+	
+	public static void main (String[] args) 
+		{
+		
+		int Option;
+		String user;
+		
+		do{
+			DisplayMenu();
+			Option = TextIO.getInt();
+			Statement(Option);
+			
+			
+			}
+		while(Option !=3);
+		
+		}
+		
+	
+	public static void DisplayMenu() {
+		
+		TextIO.putln("1 = Start New Game");
+		TextIO.putln("2 = Replay Last Game");
+		TextIO.putln("3: Exit the Game");
+		
+		
+	}
+	
+	public static void Statement(int Option) {
+	
+		switch (Option){
+		case 1: TextIO.putln("You chose to view all contacts");
+				break;
+		case 2: TextIO.putln("You chose to delete a contact");break;
+		case 3: TextIO.putln("You choose to exit the game");
+				System.exit(4);break;
+		default: System.exit(4);break;
+		
+		
+
+	
+	
+		}
+
+	}
+}
+
+
+
+
+

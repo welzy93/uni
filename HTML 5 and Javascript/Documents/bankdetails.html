@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bank Details</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="CSS.css">
+
+</head>
+ 
+<body background="bg.jpg">
+
+<header>
+    <font size ="6.5">
+        <h1><b><u><center> Bank Details </center></u><b></c></h1>
+    </font>
+    </header>
+
+<div id="navigation">
+			<ul>
+				<li><a href="Home Page.html">Home Page</a></li>
+				<li><a href="Login.html">User Login</a></li>
+				<li><a href="Contact.html">Help</a></li>
+			</ul>
+		</div>
+
+ 
+<br>
+<br>
+<br>
+
+
+<p> Fields with an asterisk - (*) beside them are required to be filled in, the other fields are optional. </p>
+
+<br>
+
+<table width="450px">
+<tr>
+ <td valign="top">
+
+  <label for="flname">Full Name * (as displayed on card)</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="flname" id="flname" maxlength="100" size="30" ">
+  </td>
+
+<tr>
+ <td valign="top">
+  <label for="cardt">Card Type * (please select) </label>
+ </td>
+ <td valign="top">
+<select>
+  <option value="visadebit">Visa Debit</option>
+  <option value="visacredit">Visa Credit</option>
+  <option value="maestro">Maestro</option>
+  <option value="visaelectron">Visa Electron</option>
+</select>
+</td>
+</tr>
+
+
+
+<tr>
+ <td valign="top"">
+  <label for="cardno">Card Number *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="cardno" id="cardno" maxlength="16" size="30">
+<td>
+<a href="http://www.allaboutmoney.com/images/copyimages/card-number.jpg" target="_blank">
+<img src="question.png" width="25" height="25" /></a>
+</td>
+</tr>
+
+<tr>
+ <td valign="top">
+  <label for="sortcode">Sort Code *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="sortcode" id="sortcode" maxlength="6" size="30">
+<td>
+<a href="http://www.allaboutmoney.com/images/copyimages/sort-code.jpg" target="_blank">
+<img src="question.png" width="25" height="25" /></a>
+ </td>
+</tr>
+
+<tr>
+ <td valign="top">
+  <label for="cvc">CVC *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="cvc" id="cvc" maxlength="3" size="30">
+<td>
+<a href="http://www.allaboutmoney.com/images/copyimages/security-code.jpg" target="_blank">
+<img src="question.png" width="25" height="25" /></a>
+ </td>
+</tr>
+
+
+<tr>
+ <td valign="top">
+  <label for="vfr">Valid From *</label>
+ </td>
+ <td valign="top">
+  <input  type="date" name="vfr" id="vfr">
+ </td>
+</tr>
+
+<tr>
+ <td valign="top">
+  <label for="expdt">Expiry Date *</label>
+ </td>
+ <td valign="top">
+  <input  type="date" name="expdt" id="expdt">
+ </td>
+</tr>
+
+
+<tr>
+<td align="center">
+<form action='mailto:welzy93@live.co.uk' method="post" enctype="text/plain"> 
+<form name="contactform" method="post" action="'mailto:welzy93@live.co.uk'">
+<input type="submit" value="Submit Values" />
+</form>
+<td align="center">
+<form method="get" action="confirm.html">
+    <button type="submit">Continue</button>
+
+</form>
+</td>
+</tr>
+</table>
+
+
+</body>
+</html>

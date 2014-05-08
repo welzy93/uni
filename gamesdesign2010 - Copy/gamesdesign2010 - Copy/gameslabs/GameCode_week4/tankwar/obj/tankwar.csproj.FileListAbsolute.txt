@@ -1,0 +1,8 @@
+C:\Documents and Settings\33333083\My Documents\Visual Studio 2005\Projects\tankwar\tankwar\bin\Debug\tankwar.exe
+C:\Documents and Settings\33333083\My Documents\Visual Studio 2005\Projects\tankwar\tankwar\bin\Debug\tankwar.pdb
+C:\Documents and Settings\33333083\My Documents\Visual Studio 2005\Projects\tankwar\tankwar\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\33333083\My Documents\Visual Studio 2005\Projects\tankwar\tankwar\obj\Debug\tankwar.Properties.Resources.resources
+C:\Documents and Settings\33333083\My Documents\Visual Studio 2005\Projects\tankwar\tankwar\obj\Debug\tankwar.csproj.GenerateResource.Cache
+C:\Documents and Settings\33333083\My Documents\Visual Studio 2005\Projects\tankwar\tankwar\obj\Debug\tankwar.exe
+C:\Documents and Settings\33333083\My Documents\Visual Studio 2005\Projects\tankwar\tankwar\obj\Debug\tankwar.pdb
+C:\Documents and Settings\33333083\My Documents\Visual Studio 2005\Projects\tankwar\tankwar\obj\Debug\tankwar.tankform.resources

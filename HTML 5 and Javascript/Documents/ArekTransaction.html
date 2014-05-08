@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <script type="text/javascript" src= "js/transaction.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS.css">
+    <title> Transactions </title>
+    
+</head>
+<body background="bg.jpg">
+    <header>
+    <font size ="6.5">
+        <h1><b><u><center> Transactions Calculator </center></u><b></c></h1>
+    </font>
+    </header>
+<br>
+
+<div id="navigation">
+		<ul>
+			<li><a href="Home Page.html">Home Page</a></li> 
+			<li><a href="Contact.html">Help</a></li>
+		</ul>
+</div>
+
+	<div id="formDiv">
+	<font size ="6">
+   	
+
+<table border=3 width=100%>
+<form name="contributions">
+
+			<td bgcolor="FFFF21"> <b><u>Transaction type</u></b>
+                        <th bgcolor="FFFF21"><u> Amount </u></th> </td>
+            
+<tr>
+	<th align="left" bgcolor="#FFFFFF"><label for="balance">Balance:</label></th>
+	<td align="right" bgcolor="#FFFFFF"><input align="right" type="text" name="balance" onChange="calcrows()" size=4 tabindex="2"></td>
+</tr>
+<tr>
+	<th align="left" bgcolor="#FFFFFF"><label for="cash">Cash:</label></th>
+	<td align="right" bgcolor="#FFFFFF"><input type="text" name="cash" onChange="calcrows()" size=4 tabindex="3"></td>
+</tr>
+<tr>
+	<th align="left" bgcolor="#FFFFFF"><label for="credit">Credit Card:</label></th>
+	<td align="right" bgcolor="#FFFFFF"><input type="text" name="credit" onChange="calcrows()" size=4 tabindex="4"></td>
+</tr>
+<tr>
+	<th align="left" bgcolor="#FFFFFF"><label for="withd">Withdrawals:</label></th>
+	<td align="right" bgcolor="#FFFFFF"><input type="text" name="withd" onChange="calcrows()" size=4 tabindex="5"></td>
+</tr>
+<tr>
+	<th align="left" bgcolor="#FFFFFF"><label for="direct">Direct Debit:</label></th>
+	<td align="right" bgcolor="#FFFFFF"><input type="text" name="direct" onChange="calcrows()" size=4 tabindex="6"></td>
+</tr>
+
+
+
+<tr bgcolor="#FFFFFF">
+	<th align="left"><label for="totl">New Balance:</label></th>
+	<td align="right" bgcolor="#FF0E17"><input type="text" name="totl" onChange="calcrows()" size=8 tabindex="7">
+	</td>
+</tr>
+</table>
+<p>
+<center><input type="RESET" value="CLEAR FORM DATA" tabindex="8"></center>
+
+</form>
+
+<script language="JavaScript">
+
+function calcrows(){
+ 	var bal = (document.contributions.balance.value*1);
+	var cas = (document.contributions.cash.value*1);
+	var cre = (document.contributions.credit.value*1); 
+	var wit = (document.contributions.withd.value*1);
+	var dir = (document.contributions.direct.value*1); 
+
+
+
+	var totl = (bal+cas-cre-wit-dir);
+	document.contributions.totl.value = totl;
+}
+
+</script>
+
+</body>
+</html>

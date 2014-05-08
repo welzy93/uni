@@ -1,0 +1,32 @@
+public class ShapeApp {
+	
+	public static void main(String[] args) {
+		
+	Triangle green;
+	
+	green = new Triangle();
+	
+	green.height = 20;
+	green.width = 12;
+	
+	TextIO.putln(green.height);
+	TextIO.putln(green.width);
+	TextIO.putln(green.getArea());
+	}
+
+}
+
+---------
+
+
+
+public class Triangle {
+	
+	public int height;
+	public int width;
+	
+	public int getArea(){
+		return height*width;
+	}
+
+}

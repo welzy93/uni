@@ -1,0 +1,3 @@
+var shootSound:Sound =new Sound();
+				shootSound.load(new URLRequest ("LaserBlast.mp3"));
+				shootSound.play();

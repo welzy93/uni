@@ -1,0 +1,40 @@
+#container
+{
+	margin: 0 auto;
+	width: 900px;
+	background: #fff;
+}
+
+
+
+#navigation
+{
+	float: left;
+	width: 900px;
+	background: #333;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding:0px 0px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 4px solid #fff;
+}
+
+#navigation li a:hover { background: #383; }
+
